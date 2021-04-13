@@ -2,6 +2,7 @@
 
 body {
     background-color: #CCCCCC;
+    font-family: 'Quattrocento', serif;
 }
 
 h1 {
@@ -17,9 +18,6 @@ h3 {
 }
 
 .section-container {
-    display: inline-flex;
-    justify-content: center;
-    flex-wrap:wrap;
     width: 100%;
     background-color: #CCCCCC;
 }
@@ -30,6 +28,8 @@ h3 {
 .navbar {
     background-color: #143D55;
     color: white;
+    width: 95%;
+    margin-left: 2.5%;
 }
 
 
@@ -37,7 +37,7 @@ h3 {
 
 
 .splash {
-    background: url(./Images/splash1.jpg) fixed center no-repeat;
+    background: url(./Images/clement-helardot-95YRwf6CNw8-unsplash.jpg)  center no-repeat;
     background-size: cover;
     min-height: 500px;
     display: inline-flex;
@@ -49,6 +49,7 @@ h3 {
 
 .header-box {
        text-align: center;
+       color: #287AA9;
        }
 
 .header-box img {
@@ -59,39 +60,56 @@ h3 {
 
 /* Project Section Styles */
 
-.projects-section {
-    display: inline-flex;
-    justify-content: center;
-    flex-wrap:wrap;
-    width: 100%;
-    background-color: #CCCCCC;
-}
-
 .project-header {
     background-color: #96AD3E;
-    width: 90%;
-    text-align: center;
-    padding-top: 20px;
+    width: 95%;
+    margin-left: 2.5%;
     text-decoration: underline;
+    margin-bottom: 0;
 }
 
 .projects {
     background-color: #96AD3E;
-    width: 90%;
+    width: 95%;
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 2.5%;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+hr {
+    height:30px;
+    color:#143D55;
+    background: #143D55;
+}
+
+#title {
+    align-self: start;
+    text-decoration: underline;
+    margin-left: 20px;
 }
 
 .project-info {
-    max-width: 500px;
+    max-width: 800px;
     text-align: center;
+    margin: 10px 10px 10px;
 }
 
 .project-info img {
     max-width: 100%;
 }
 
-#enchantment-blurb {
-    visibility:hidden;
+
+.tea-blurb{
+    display: none;
 }
+
+.tea-blurb:hover, #tea:hover {
+    display: inline;
+}
+
 
 #twc img {
     filter: blur(8px);
@@ -103,11 +121,32 @@ h3 {
 
 .about-section {
     background-color: #287AA9;
-    width: 90%;
-    margin-left: 5%;
+    width: 95%;
+    margin-left: 2.5%;
 }
 
 .tech-logos {
     display: inline-flex;
     justify-content: start;
+}
+
+.tech-logos img {
+    max-height: 60px;
+    margin: 0 20px 0 20px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #143D55;
+    width: 95%;
+    margin-left: 2.5%;
+    height: 3rem;
+}
+
+footer h5{
+    color: white;
+    margin-left: 10px;
+    padding-top: 10px;
 }
