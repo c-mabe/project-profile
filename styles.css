@@ -16,6 +16,14 @@ h3 {
     font-size: 24px;
 }
 
+.section-container {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    width: 100%;
+    background-color: #CCCCCC;
+}
+
 
 /* Navigation Styles */
 
@@ -70,10 +78,6 @@ h3 {
 .projects {
     background-color: #96AD3E;
     width: 90%;
-    display:inline-flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    
 }
 
 .project-info {
