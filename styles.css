@@ -1,0 +1,109 @@
+/*Global Styles */
+
+body {
+    background-color: #CCCCCC;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h2, h3 {
+    font-family: 'Quattrocento', serif;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+
+/* Navigation Styles */
+
+.navbar {
+    background-color: #143D55;
+    color: white;
+}
+
+
+/* Hero Styles */
+
+
+.splash {
+    background: url(./Images/splash1.jpg) fixed center no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+   }
+
+.header-box {
+       text-align: center;
+       }
+
+.header-box img {
+    height:200px;
+    width: 200px;
+}
+
+
+/* Project Section Styles */
+
+.projects-section {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    width: 100%;
+    background-color: #CCCCCC;
+}
+
+.project-header {
+    background-color: #96AD3E;
+    width: 90%;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+.projects {
+    background-color: #96AD3E;
+    width: 90%;
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.project-info {
+    max-width: 500px;
+    text-align: center;
+}
+
+.project-info img {
+    max-width: 100%;
+}
+
+#enchantment-blurb {
+    visibility:hidden;
+}
+
+#twc img {
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+
+/* About Section */
+
+.about-section {
+    background-color: #287AA9;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.tech-logos {
+    display: inline-flex;
+    justify-content: start;
+}
