@@ -19,7 +19,7 @@ h3 {
 
 .section-container {
     width: 100%;
-    background-color: #CCCCCC;
+    
 }
 
 
@@ -102,7 +102,15 @@ hr {
 }
 
 
-.tea-blurb{
+#tea-blurb{
+    display: none;
+}
+
+#enchantment-blurb {
+    display: none;
+}
+
+#twc-blurb {
     display: none;
 }
 
@@ -128,11 +136,13 @@ hr {
 .tech-logos {
     display: inline-flex;
     justify-content: start;
+    flex-wrap: wrap;
+    width:100%;
 }
 
 .tech-logos img {
     max-height: 60px;
-    margin: 0 20px 0 20px;
+    margin: 0 20px 10px 20px;
 }
 
 
@@ -150,3 +160,14 @@ footer h5{
     margin-left: 10px;
     padding-top: 10px;
 }
+
+/* Breakpoints */
+
+@media only screen and (max-width: 600px) {
+    .splash {
+        justify-content: center;
+    }
+    #empty {
+        display: none;
+    }
+  }
